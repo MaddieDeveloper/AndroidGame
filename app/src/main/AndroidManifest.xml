@@ -10,10 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidGame">
         <activity
+            android:name=".GameActivity"
+            android:exported="false"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.noActionBar" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:theme="@style/AppTheme.noActionBar"
-            android:screenOrientation="landscape">
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.noActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
