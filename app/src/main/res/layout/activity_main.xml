@@ -20,7 +20,7 @@
         android:textColor="#ffffff"
         android:layout_centerHorizontal="true"
         android:layout_above="@+id/playbtn"
-        android:layout_below="@+id/hightScoreTxt" />
+        android:layout_below="@+id/highScoreTxt" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -39,7 +39,7 @@
         android:textColor="#ffffff"
         android:layout_alignParentRight="true"
         android:layout_margin="16dp"
-        android:id="@+id/hightScoreTxt" />
+        android:id="@+id/highScoreTxt" />
 
     <ImageView
         android:layout_width="36dp"
@@ -47,6 +47,6 @@
         android:src="@drawable/ic_baseline_volume_up_24"
         android:layout_alignParentBottom="true"
         android:layout_margin="16dp"
-        android:id="@+id/columeCtrl" />
+        android:id="@+id/volumeCtrl" />
 
 </RelativeLayout>
